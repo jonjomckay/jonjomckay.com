@@ -1,0 +1,32 @@
+<footer class="footer">
+    <div class="footer__inner">
+        {{ if $.Site.Copyright }}
+        <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
+        {{else}}
+        {{ partial "logo.html" . }}
+        <div class="copyright">
+            <span>© {{ now.Year }} Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Theme created by <a href="https://twitter.com/panr">panr</a></span>
+        </div>
+        {{end}}
+    </div>
+</footer>
+
+<script src="{{ "assets/main.js" | absURL }}"></script>
+<script src="{{ "assets/prism.js" | absURL }}"></script>
+
+<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+<script>
+    (function (f, a, t, h, o, m) {
+        a[h] = a[h] || function () {
+            (a[h].q = a[h].q || []).push(arguments)
+        };
+        o = f.createElement('script'),
+            m = f.getElementsByTagName('script')[0];
+        o.async = 1; o.src = t; o.id = 'fathom-script';
+        m.parentNode.insertBefore(o, m)
+    })(document, window, 'https://fathom.jonjomckay.com/tracker.js', 'fathom');
+    fathom('set', 'siteId', 'AWWUH');
+    fathom('trackPageview');
+</script>
+<!-- / Fathom -->

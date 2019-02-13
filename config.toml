@@ -1,0 +1,15 @@
+baseURL = "https://jonjomckay.com/blog/"
+languageCode = "en-us"
+title = "Jonjo McKay"
+theme = "hello-friend"
+disqusShortname = "jonjomckay"
+
+[params]
+defaultTheme = "light"
+
+[languages]
+    [languages.en]
+        title = "Jonjo McKay"
+
+        [languages.en.params.logo]
+        logoText = "jonjomckay"
