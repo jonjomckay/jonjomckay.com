@@ -6,13 +6,13 @@ draft: false
 
 This week was our internal "Greenlight" week at Boomi, where we get the chance to split into teams, think of an innovative project, and bash something out within 5 days.
 
-My team (named *Steve#*, after our fearless leader's code style) decided to try and design and implement a tool for visual diffing, to make our users' lives easier when comparing differences between versions of items in our platform.
+My team (named **Steve#**, after our fearless leader's distinctive coding style) decided to try and design and implement a tool for visual diffing, to make our users' lives easier when comparing differences between versions of items in our platform.
 
 After some initial experimentation with a JSON diffing library, we found out that our attempts at rendering a nice tree by recursing from top-to-bottom, then left-to-right wasn't giving us the rendered output we desired.
 
-My colleague Jacek threw in an idea to use something I'd never heard of before (which happens a lot, thanks to having no real CS education at university) - breadth-first searching (BFS). 
+My colleague Jacek threw in an idea to use something I'd never heard of before (which happens a lot, thanks to having no real CS education at university... 🤷🏽‍♂️) - **breadth-first searching** (BFS). 
 
-BFS is a different way of traversing a tree structure, by going left-to-right, then top-to-bottom. It's useful for... TODO. 
+BFS is a different way of traversing a tree structure, by going left-to-right, then top-to-bottom. It's useful for a bunch of things, a lot too complicated to list here, so I'd recommend just reading the [Wikipedia page](https://en.wikipedia.org/wiki/Breadth-first_search) 🙂. 
 
 {{< figure src="/img/breadth-first-search.svg" caption="Alexander Drichel [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], from Wikimedia Commons" link="https://commons.wikimedia.org/wiki/File:Breadth-first-tree.svg" position="center" title="Breadth-first search" width="800" >}}
 
