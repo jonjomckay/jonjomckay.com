@@ -7,6 +7,9 @@ disqusShortname = "jonjomckay"
 [params]
 defaultTheme = "light"
 
+[permalinks]
+posts = "/:year/:month/:title/"
+
 [languages]
     [languages.en]
         title = "Jonjo McKay"
