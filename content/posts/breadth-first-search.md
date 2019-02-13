@@ -1,7 +1,7 @@
 ---
 title: "Breadth-first Search: Searching trees, but sideways"
 date: 2019-02-13T19:19:18Z
-draft: true
+draft: false
 ---
 
 This week was our internal "Greenlight" week at Boomi, where we get the chance to split into teams, think of an innovative project, and bash something out within 5 days.
