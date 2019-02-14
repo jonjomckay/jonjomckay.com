@@ -14,7 +14,7 @@ My colleague Jacek threw in an idea to use something I'd never heard of before (
 
 BFS is a different way of traversing a tree structure, by going left-to-right, then top-to-bottom. It's useful for a bunch of things, a lot too complicated to list here, so I'd recommend just reading the [Wikipedia page](https://en.wikipedia.org/wiki/Breadth-first_search) 🙂. 
 
-{{< figure src="/img/breadth-first-search.svg" caption="Alexander Drichel [CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)], from Wikimedia Commons" link="https://commons.wikimedia.org/wiki/File:Breadth-first-tree.svg" position="center" title="Breadth-first search" width="800" >}}
+{{<figure src="/img/breadth-first-search.svg" caption="Breadth-first search: Alexander Drichel [CC BY 3.0], from Wikimedia Commons" link="https://commons.wikimedia.org/wiki/File:Breadth-first-tree.svg" position="center" title="Breadth-first search">}}
 
 Here's a small snippet of an implementation in Javascript (shamelessly modified from Jacek's code):
 
