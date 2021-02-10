@@ -8,7 +8,7 @@ title: "About"
 
 Hi! I'm Jonjo McKay, a software engineer from the South Coast of the UK.
 
-I'm currently living in Exeter, Devon, and working as a Software Principal Engineer at Dell Boomi, where I am the lead for the **Boomi Flow** product (formerly ManyWho).
+I'm currently living in Exeter, Devon, and working as a Software Principal Engineer at Boomi, where I am working on their next-generation runtime.
 
 This is a place for me to share my thoughts and some interesting things I've learnt, but I'm no writer, so expect some rough edges! 😅
 
